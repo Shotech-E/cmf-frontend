@@ -7,7 +7,7 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-gray-300 text-black py-20">
+      <section className="bg-gray-300 text-black py-30">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Get in Touch</h1>
           <p className="mt-4 text-lg">
