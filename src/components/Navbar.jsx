@@ -8,12 +8,14 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className="fixed w-full bg-yellow-200 shadow-md z-50">
+    <header className="fixed w-full bg-yellow-200 shadow-md z-50 ">
       <nav className="max-w-screen-xl mx-auto px-4 flex justify-between items-center py-2 relative h-18">
         {/* Logo - moved to left */}
         <div className="nav__logo">
           <Link to="/" onClick={closeMenu}>
-            <span className="text-3xl font-bold hover:text-gray-400">CMF</span>
+            <span className="h-14 w-14 bg-gray-50 rounded-full flex flex-shrink-0 justify-center items-center text-yellow-400 text-2xl font-semibold hover:bg-gray-400">
+              CMF
+            </span>
           </Link>
         </div>
 
@@ -21,7 +23,7 @@ const Navbar = () => {
         <div className="lg:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-2xl focus:outline-none"
+            className="text-2xl focus:outline-none hover:bg-gray-100"
             aria-label="Toggle menu"
           >
             <i className={isMenuOpen ? "ri-close-line" : "ri-menu-line"}></i>

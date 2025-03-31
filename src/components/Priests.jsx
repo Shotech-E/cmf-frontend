@@ -7,12 +7,16 @@ const Priests = () => {
     <div className="min-h-screen bg-gray-100">
       <Navbar />
       <section className="bg-gray-400 text-black py-20">
-        <Link
-          to="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-          rel="stylesheet"
-        />
-
         <div className="container mx-auto px-4">
+          <section className="bg-gray-400 text-black py-20">
+            <div className="container mx-auto text-center">
+              <h1 className="text-4xl font-bold">Priests</h1>
+              {/* <p className="mt-4 text-lg">
+                We’d love to hear from you! Contact us for inquiries, support,
+                or feedback.
+              </p> */}
+            </div>
+          </section>
           <div className="flex flex-wrap -mx-4">
             {/* Card 1 */}
             <div className="w-full md:w-1/3 px-4 mb-8">
