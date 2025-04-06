@@ -1,4 +1,4 @@
 export const getBaseUrl = () => {
-    return "https://cmf-backend-bice.vercel.app/";
+    return "https://cmf-backend-dun.vercel.app/";
 }
 
