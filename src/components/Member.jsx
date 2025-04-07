@@ -4,7 +4,7 @@ import { utils, writeFile } from "xlsx";
 // import { useReactToPrint } from "react-to-print";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
-import { formatDate } from "../util/formateDate";
+import { formatDate } from "../utils/formateDate";
 
 import {
   useGetMembersQuery,
