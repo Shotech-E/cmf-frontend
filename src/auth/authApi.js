@@ -4,7 +4,7 @@ import { getBaseUrl } from "../util/baseURL";
 const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${getBaseUrl()}/api/auth`,
+    baseUrl: `https://cmf-backend-iota.vercel.app/api/auth`,
     credentials: "include",
   }),
 
