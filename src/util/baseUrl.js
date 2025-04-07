@@ -1,5 +1,5 @@
 export const getBaseUrl = () => {
-    return "";
+    return "https://cmf-backend-iota.vercel.app";
 
 }
 
