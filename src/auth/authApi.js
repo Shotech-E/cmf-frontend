@@ -26,7 +26,7 @@ const authApi = createApi({
         url: "/members",
         method: "GET",
       }),
-      providesTags: ["Member"], // Changed from invalidatesTags to providesTags
+      invalidatesTags: ["Member"], // Changed from invalidatesTags to providesTags
     }),
 
     deleteMember: builder.mutation({
